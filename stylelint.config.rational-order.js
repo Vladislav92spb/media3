@@ -299,3 +299,26 @@ module.exports = {
     'order/properties-order': propertiesOrder,
   },
 };
+
+
+// const MenuBtn = document.querySelector('.header__menu')
+// const MobMenuBtn = document.querySelector('.header__mobile_menu')
+// const cross = document.querySelector('.header__cross')
+
+// // MenuBtn.addEventListener('click', (e) => {
+// //   // отменяем стандартное поведение браузера
+// //   e.preventDefault();
+// //   // что делаем при клике
+// //   //classList - обработчик классов
+// //   modal.classList.add('.header__mobile_menu')
+
+// // });
+
+// // cross.addEventListener('click', (e) => {
+// //   // отменяем стандартное поведение браузера
+// //   e.preventDefault();
+// //   // что делаем при клике
+// //   //classList - обработчик классов
+// //   modal.classList.remove('.header__mobile_menu')
+
+// // });
