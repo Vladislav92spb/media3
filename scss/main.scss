@@ -1,0 +1,59 @@
+@font-face {
+  font-weight: 400;
+  font-family: 'Oswald';
+  src: url('/assets/fonts/Oswald-Regular.ttf');
+}
+
+@font-face {
+  font-weight: 500;
+  font-family: 'Oswald';
+  src: url('/assets/fonts/Oswald-Medium.ttf');
+}
+
+
+@import 'vendor/normalize.scss';
+@import 'variables.scss';
+@import 'header.scss';
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  color: #000;
+  font-family: 'Oswald', 'Arial', sans-serif;
+  background-color: rgb(232 226 226);
+  font-weight: 400;
+  
+}
+
+.container {
+  box-sizing: border-box;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 20px;
+  padding-left: 20px;
+  max-width: 100%;
+}
+
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+
+
+
+
