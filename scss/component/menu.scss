@@ -5,6 +5,9 @@
         align-items: center;
         padding: 11px 20px 17px;
         border-bottom: 1px solid #D9D9D9;
+        @media (min-width: 577px) {
+            display: none;
+        }
 
     }
 
@@ -88,4 +91,8 @@
         /* 100% */
         text-transform: uppercase;
     }
+
+
+
+
 }
