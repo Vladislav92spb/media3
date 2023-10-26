@@ -11,14 +11,15 @@
 }
 // малые
 @import 'component/menu.scss';
-@import 'component/catalog.scss';
+
 
 
 // большие
 @import 'vendor/normalize.scss';
 @import 'variables.scss';
 @import 'component/header.scss';
-
+@import 'component/catalog.scss';
+@import 'component/work.scss';
 
 
 
@@ -46,6 +47,19 @@ body {
   padding-right: 20px;
   padding-left: 20px;
   max-width: 100%;
+
+  @media (min-width: 577px) {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+
+  @media (min-width: 1250px) {
+    max-width: 1250px;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+
 }
 
 
