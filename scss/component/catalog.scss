@@ -6,6 +6,8 @@
         justify-content: center;
         align-items: center;
         gap: 20px;
+        @media (min-width: 1250px) {
+            gap: 80px;}   
     }
 
     &__program {
@@ -27,12 +29,9 @@
 
         }
 
-        @media (min-width: 1025px) {
+        @media (min-width: 1250px) {
             width: 570px;
             height: 374px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
             align-items: center;
 
         }
@@ -68,7 +67,18 @@
                 padding: 77px 0 0 53px;
             }
         }
-        @media (min-width: 1025px) {}
+        @media (min-width: 1250px) {
+           
+            &--slim {
+                padding-left: 62px;
+            }
+
+            &--pro {
+                padding-left: 62px;
+            }
+
+
+        }
             
 
     }
@@ -91,9 +101,11 @@
             &--pro {
                 padding-right: 314px;
             }
-
         }
-
+        @media (min-width: 1250px) {
+            padding: 73px 51px 0 52px;
+            
+        }
 
 
 
@@ -155,6 +167,26 @@
             }
         }
 
+        @media (min-width: 1250px) {
+            &::after {
+                content: '';
+                top: 30px;
+                left: 182px;
+                position: absolute;
+                background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='12' viewBox='0 0 32 12' fill='none'%3E%3Cline y1='6' x2='18' y2='6' stroke='black' stroke-width='2'/%3E%3Cpath d='M24 6L17.25 11.1962L17.25 0.803848L24 6Z' fill='black'/%3E%3C/svg%3E");
+                width: 32px;
+                height: 11px;
+
+            }
+            &--slim {
+                padding: 27px 410px 59px 52px;
+            }
+
+            &--pro {
+                padding: 27px 414px 59px 52px;
+            }
+        }
+
     }
 
     &__img {
@@ -198,12 +230,20 @@
             }
         }
 
-        @media (min-width: 1025px) {
+        @media (min-width: 1250px) {
+            &--slim {
             top: 41px;
             left: 52px;
-            width: 100px;
+            width: 102px;
             height: 100px;
+            }
 
+            &--pro{
+                top: 47px;
+                left: 52px;
+                width: 100px;
+                height: 100px;
+            }
 
         }
 
@@ -221,7 +261,7 @@
 
         }
 
-        @media (min-width: 1025px) {
+        @media (min-width: 1250px) {
             width: 70px;
             margin-left: 15px;
             height: 97px
@@ -242,7 +282,7 @@
             height: 112.322px;
         }
 
-        @media (min-width: 1025px) {
+        @media (min-width: 1250px) {
             width: 134px;
             height: 56px;
             margin-top: 25%;
