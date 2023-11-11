@@ -1,0 +1,124 @@
+.food {
+    position: relative;
+    padding: 27px 0 22px;
+
+    @media (min-width: 655px) {
+        padding: 62px 0 526px;
+    }
+
+    @media (min-width: 1250px) {
+        padding: 111px 0 267px;
+    }
+
+    &__bg {
+        position: absolute;
+        top: 0;
+        z-index: -1;
+        @media (min-width: 655px) {
+            display: none;
+        }
+        @media (min-width: 1250px) {
+            right: 0;
+            top: -114px;
+            display: block;
+        }
+
+        img {
+            max-width: 100%;
+        }
+
+    }
+
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        @media (min-width: 655px) {
+            position: relative;
+            align-items: flex-start;
+            padding-left: 88px;
+        }
+        @media (min-width: 1250px) {
+        padding-left: 80px;
+        }
+    }
+
+    &__title {
+        color: #FFF;
+        text-align: center;
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 36px;
+        margin: 0;
+        margin-bottom: 25px;
+
+        @media (min-width: 655px) {
+            color: #000;
+            font-size: 60px;
+            line-height: 60px;
+            text-align: unset;
+            margin-bottom: 41px;
+            /* 100% */
+        }
+    }
+
+    &__subtitle {
+        color: #FFF;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 14px;
+        text-transform: uppercase;
+        margin-bottom: 29px;
+
+        @media (min-width: 655px) {
+            color: #000;
+            font-size: 20px;
+            line-height: 20px;
+            margin-bottom: 49px;
+            /* 100% */
+
+        }
+
+    }
+
+    &__img {
+        img {
+            max-width: 100%;
+
+        }
+
+        @media (min-width: 655px) {
+            position: absolute;
+            top: calc(81px + 120px);
+            left: 0;
+            z-index: -1;
+        }
+
+        @media (min-width: 1250px) {
+            left: 448px;
+            top: -82px;
+
+        }
+    }
+
+    &__btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: var(--basic-white, #FFF);
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 18px;
+        text-transform: uppercase;
+        background-color: #68B738;
+        height: 40px;
+        width: 100%;
+
+        @media (min-width: 655px) {
+            width: 244px;
+        }
+
+    }
+}
