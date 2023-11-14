@@ -1,0 +1,103 @@
+.program {
+
+    &__wrapper {
+        padding: 27px 0 32px;
+    }
+
+    h1 {
+        color: #000;
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 36px;
+        margin: 0 0 37px;
+
+    }
+
+    h3 {
+        color: #000;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 26px;
+
+    }
+
+    &__title {
+        margin-bottom: 39px;
+    }
+
+    &__data {
+        color: #444;
+
+        font-size: 16px;
+
+        font-weight: 400;
+        line-height: 18px;
+        text-transform: uppercase;
+    }
+
+
+
+    &__checkbox {
+        color: #000;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 18px;
+        text-transform: uppercase;
+    }
+
+    &__input_data {
+        padding-bottom: 24px;
+        border-bottom: 1px solid #D9D9D9;
+    }
+
+    &__type {
+        margin-top: 26px;
+        padding-bottom: 28px;
+        border-bottom: 1px solid #D9D9D9;
+    }
+
+    &__title1 {
+        margin: 26px 0 32px;
+    }
+
+    &__title2 {
+        margin: 27px 0 34px;
+    }
+
+    textarea {
+        height: 150px;
+        width: 100%;
+        resize: none;
+
+    }
+
+    &__title3 {
+        margin: 27px 0 34px;
+    }
+
+    &__btn {
+        margin: 34px 0 21px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 40px;
+        width: 100%;
+        background-color: #68B738;
+        border: none;
+        color: var(--basic-white, #FFF);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+        /* 125% */
+        text-transform: uppercase;
+    }
+
+    p {
+        color: #000;
+        text-align: center;
+        font-family: Arial;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16px;
+    }
+}
