@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Layout Template</title>
+
+  <link rel="stylesheet" href="assets/css/main.css" />
+
+</head>
+
+<body>
+  <header class="header">
+    <div class="menu">
+      <div class="menu__header">
+        <a href="index.html" class="menu__logo"><img src="assets/img/logo.svg" alt=""></a>
+        <a href="index.html" class="menu__text"><img src="assets/img/text.svg" alt=""></a>
+        <div class="menu__btn">
+          <span></span>
+          <span></span>
+          <span></span>
+          <div class="menu__invisible-btn"></div>
+        </div>
+      </div>
+      <ul class="menu__list">
+        <li class="menu__item"><a href="index.html" class="menu__link">главная</a></li>
+        <li class="menu__item"><a href="catalog.html" class="menu__link">каталог продукции</a></li>
+        <li class="menu__item"><a href="program.html" class="menu__link">подбор программы</a></li>
+      </ul>
+    </div>
+    <div class="container">
+      <div class="header__wrapper">
+        <a href="index.html" class="header__logo header__logo--tablet"><img src="/assets/img/logo-tablet.svg"
+            alt=""></a>
+        <a href="index.html" class="header__logo header__logo--desktop"><img src="/assets/img/logo-desktop.svg"
+            alt=""></a>
+        <nav class="header__nav">
+          <ul class="header__list">
+            <li class="header__item"><a href="index.html" class="header__link header__link--current">главная</a></li>
+            <li class="header__item"><a href="catalog.html" class="header__link">каталог продукции</a></li>
+            <li class="header__item"><a href="program.html" class="header__link header__link--marg">подбор программы</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="headline">
+      <div class="container">
+        <h1>Каталог продукции</h1>
+      </div>
+      <section class="shop">
+        <div class="container">
+          <ul class="shop__list">
+
+            <li class="shop__card">
+              <div class="shop__wrapper">
+                <picture class="shop__img shop__img--small">
+                  <source media="(min-width: 768px)" srcset="assets/img/shop/shop-desktop.png">
+                  <img src="assets/img/shop/shop-mobil.png" alt="">
+                </picture>
+                <div class="shop__info">
+                  <h3 class="shop__title">Cat Energy
+                    PRO
+                    500 г</h3>
+                  <table class="shop__table">
+                    <tr class="shop__tr">
+                      <td class="shop__td">
+                        Масса
+                      </td>
+                      <td class="shop__td">
+                        500 г
+                      </td>
+                    </tr>
+                    <tr class="shop__tr">
+                      <td class="shop__td">
+                        Вкус
+                      </td>
+                      <td class="shop__td">
+                        Курица
+                      </td>
+                    </tr>
+                    <tr class="shop__tr">
+                      <td class="shop__td">
+                        Цена
+                      </td>
+                      <td class="shop__td">
+                        700 Р.
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+              <a href="#" class="shop__btn">заказать</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </section>
+  </main>
+
+
+
+
+
+  <footer class="footer">
+    <div class="footer__wrapper">
+      <div class="footer__promo">
+        <p class="footer__title">приглашаем
+          к сотрудничеству дилеров!</p>
+        <p class="footer__subtitle">ул. Большая
+          Конюшенная, д. 19/8
+          <span class="footer__span">Санкт-Петербург</span>
+        </p>
+      </div>
+
+      <div class="footer__map">
+        <iframe
+          src="https://yandex.ru/map-widget/v1/?ll=30.323037%2C59.938631&mode=whatshere&whatshere%5Bpoint%5D=30.323037%2C59.938631&whatshere%5Bzoom%5D=17&z=16"
+          width="560" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe>
+      </div>
+
+
+      <div class="container">
+        <div class="footer__links">
+          <div class="footer__logo">
+            <a href="#" class="footer__logo1"> <img src="/assets/img/mobile/footer-logomob.svg" alt=""></a>
+          </div>
+
+          <div class="footer__icons">
+            <a href="#" class="footeer__icon1"><img src="/assets/img/mobile/vk_mob.svg" alt=""></a>
+            <a href="#" class="footeer__icon1"><img src="/assets/img/mobile/inst_mob.svg" alt=""></a>
+            <a href="#" class="footeer__icon1"><img src="/assets/img/mobile/f_mob.svg" alt=""></a>
+          </div>
+          <div class="footer__academy">
+            <p class="footer__logo_img">HTML Academy</p>
+            <a href="#"><img src="/assets/img/mobile/Лого_htmlmob.svg" alt=""></a>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+
+  </footer>
+  <script src="/assets/js/main.js"></script>
+
+</body>
+
+</html>
