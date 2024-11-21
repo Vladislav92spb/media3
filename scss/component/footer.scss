@@ -147,6 +147,12 @@
         justify-content: center;
         padding-bottom: 32px;
         border-bottom: 1px solid #D9D9D9;
+        &:hover {
+            opacity: 0.8;
+        }
+        &:active {
+            opacity: 0.6;
+        }
 
         @media (min-width: 577px) {
             justify-content: left;
@@ -171,14 +177,49 @@
 
     }
 
-    &__academy {
+    &__icon1 {
+        svg {
+            color: #666666;
 
+            &:hover {
+                color: #68B738;
+
+                &:active {
+                    color: #68B738;
+                    opacity: 0.3;
+                }
+            }
+
+        }
+
+    }
+
+    &__academy {
 
         display: flex;
         justify-content: space-between;
         align-self: center;
         border-top: 1px solid #D9D9D9;
         padding: 28px 0 32px;
+        cursor: pointer;
+        svg {
+            color: #666666;
+
+            &:hover {
+                color: #68B738;
+
+               
+            }
+
+        } 
+
+    &:active{
+        opacity: 0.3;
+        svg {
+                color: #68B738; 
+        }
+    }
+    
 
         @media (min-width: 577px) {
             justify-content: right;
@@ -199,5 +240,8 @@
         font-family: Arial;
         font-size: 16px;
         font-weight: 400;
+
+
     }
+
 }
